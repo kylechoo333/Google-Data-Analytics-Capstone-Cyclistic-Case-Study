@@ -57,16 +57,31 @@ SQL Query: Data Exploration (To embed link here)
 - schema/ data types
 <img width="464" height="390" alt="Screenshot 2026-06-29 at 4 37 28 PM" src="https://github.com/user-attachments/assets/77f51954-917f-4ac3-883b-ad296e43e1b6" />
 
-
 #### Part 2 - Data Quality
-- NULL values
-- Blank values
-- Duplicate values
+a. NULL values Check
+  <img width="1788" height="63" alt="Screenshot 2026-06-29 at 11 47 58 PM" src="https://github.com/user-attachments/assets/75840195-0e48-4b5e-9ab3-76f0490762cb" />
+  - Both "start_station_name" and "start_station_id" have 1,184,673 missing values
+  - Both "end_station_name" and "end_station_id" have 1,2453,305 missing values
+  - Both "end_lat" and "end_lng" have 5,535 missing values
+  
+b. Blank values Check
+  <img width="967" height="68" alt="Screenshot 2026-06-30 at 12 13 48 AM" src="https://github.com/user-attachments/assets/50c6ae3f-f400-4133-9db1-1a1d6e1c3e48" />
+
+c. Duplicate values Check
+  <img width="316" height="64" alt="Screenshot 2026-06-30 at 12 20 07 AM" src="https://github.com/user-attachments/assets/7e741660-c7ac-4299-a33a-5902abb7f922" />
+  - Confirm that there are no duplicate values
 
 #### Part 3 - Outlier Detection 
-- Negative ride duration
-- Longer than 24 hours
-- Less than 1 minute
+Understand the range of ride durations
+<img width="445" height="56" alt="Screenshot 2026-06-30 at 12 38 08 AM" src="https://github.com/user-attachments/assets/d704eb20-b0e9-460e-b2fe-d69e04f500d7" />
+  - Negative ride duration: min ride duration is negative, which means there is/are incorrect timestamps. This will be considered during data cleaning stage to be removed
+  - Max ride duration: 94,494 seconds or 26.25 hours. Is this impossible? Someone could legitimately rent a bike for more than 1 day.
+  - Average ride duration: 961 seconds or 16.02 minutes. This looks ok
+
+Further inspection on the frequency, 
+<img width="445" height="65" alt="Screenshot 2026-06-30 at 12 43 26 AM" src="https://github.com/user-attachments/assets/fda822d8-7f28-43b4-9d72-576f59817b61" />
+  - 
+
 
 #### Part 4 - Column Exploration
 - ride_id
