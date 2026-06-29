@@ -38,21 +38,7 @@ I will use Cyclistic's historical trip data to analyse and identify patterns fro
 This is publicly available data that can be used to study how different type of customers are using Cyclistic bikes. But note that data-privacy issues prohibit data users from using riders' personally identifiable information. This means that we won't be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes. 
 
 ### Data Structure 
-Total of 12 files are used for this analysis, each file represents that data of each month, with the naming convention of YYYYMM-divvy-tripdata. By opening one of the file in google sheet, it is identified that the data contains the following columns, and around more than 100k+ data per month. 
-
-1. ride_id: each unique ride session id
-2. rideable_type: "classic_bike" or "electric_bike"
-3. started_at: starting timestamp (YYYY-MM-DD HH:MM:SS)
-4. ended_at: ending timestamp (YYYY-MM-DD HH:MM:SS)
-5. start_station_name: starting bike station name
-6. start_station_id: starting bike station id
-7. end_station_name: ending bike station name
-8. end_station_id: ending bike station id
-9. start_lat: starting latitude
-10. start_lng: starting longtitude
-11. end_lat: ending latitude
-12. end_lng: ending longtitude 
-13. member_casual: "member" or "casual" rider
+Total of 12 files are used for this analysis, each file represents that data of each month, with the naming convention of YYYYMM-divvy-tripdata
 
 ## Process
 As there is more than 100k+ data per month, it is clear that SQL/BigQuery should be used to handle the data because it can better process and host huge volumnes of data than google sheets or microsoft excel. Big Query is used to combine monthly dataset and clean it
