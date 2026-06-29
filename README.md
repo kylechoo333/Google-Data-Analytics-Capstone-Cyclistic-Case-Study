@@ -91,13 +91,18 @@ Further inspection on the frequency for "negative duration", "zero duration" and
   - Zero duration: There are 1,808 rides with zero duration. Need further inspection
   - Over 24 hours: There are 5,585 rides (which is ~0.1% of total data), these look ok. Could be rare case, not necessarily data errors.
 
+Further inspection on Zero duration: 
+
+<img width="1465" height="563" alt="Screenshot 2026-06-30 at 12 56 12 AM" src="https://github.com/user-attachments/assets/fca4fc1e-e609-4a55-8012-b625a2e19a70" />
+
+  - Zero-duration rides may be caused by various factors, such as system errors, failed bike unlocks, or user cancellations. However, the available dataset does not provide sufficient information to determine the exact cause. As these records do not represent meaningful bicycle usage and would distort ride duration analysis, they will be removed during the data cleaning stage.
 
 #### Part 4 - Column Exploration
-- ride_id
-- rideable_type
-- member_casual
-- station names
-- latitude/longtitude
+- ride_id: Previously verified to be unique, no duplicate values. So this can be used reliably as the unique identifier
+- rideable_type: There are only 2 bike types available, electric and classic. Electric bike shares around ~65% and that leaves classic with ~35%
+- member_casual: There are 2 riders categories as expected. Members account for ~64% and casual riders ~36%
+
+Remark: The column exploration focused on these three columns as they are the most relevant to the business objective and overall data quality. ride_id was verified to be unique, while rideable_type and member_casual were explored to understand the available bike types and rider groups. The remaining columns will be analyzed later if they contribute to answering the business question.
 
 ### Data Cleaning (SQL #3)
 
