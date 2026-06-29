@@ -66,12 +66,9 @@ SQL Query: Data Exploration (To embed link here)
 
 
 #### Part 1 - Understand the dataset
-- total rows
-- total columns
+- total rows: 5,552,994
+- total columns: 13
 - schema/ data types
-
-Total number of row is 5,552,994
-Total number of column is 13
 <img width="464" height="390" alt="Screenshot 2026-06-29 at 4 37 28 PM" src="https://github.com/user-attachments/assets/77f51954-917f-4ac3-883b-ad296e43e1b6" />
 
 
