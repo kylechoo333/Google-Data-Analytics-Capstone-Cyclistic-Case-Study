@@ -57,17 +57,23 @@ Total of 12 files are used for this analysis, each file represents that data of 
 ## Process
 As there is more than 100k+ data per month, it is clear that SQL/BigQuery should be used to handle the data because it can better process and host huge volumnes of data than google sheets or microsoft excel. Big Query is used to combine monthly dataset and clean it
 
-### Data Consolidation
+### Data Consolidation (SQL #1)
 SQL Query: Data Consolidation (To embed link here)
 12 csv are uploaded as tables in the dataset "2025_divvy_trip_data". Another table named 'overall_2025_divvy_tripdata' is created, combining the trip data for year 2025. There are total of 5,552,994 rows of data for the entire year. 
 
-### Data Exploration 
-SQL QUery: Data Exploration (To embed link here) 
+### Data Exploration (SQL #2)
+SQL Query: Data Exploration (To embed link here) 
+
 
 #### Part 1 - Understand the dataset
 - total rows
 - total columns
 - schema/ data types
+
+Total number of row is 5,552,994
+Total number of column is 13
+<img width="464" height="390" alt="Screenshot 2026-06-29 at 4 37 28 PM" src="https://github.com/user-attachments/assets/77f51954-917f-4ac3-883b-ad296e43e1b6" />
+
 
 #### Part 2 - Data Quality
 - NULL values
@@ -86,9 +92,9 @@ SQL QUery: Data Exploration (To embed link here)
 - station names
 - latitude/longtitude
 
-### Data Cleaning 
+### Data Cleaning (SQL #3)
 
-### Analysis & Share
+### Analysis & Share (SQL #4)
 
 
 
