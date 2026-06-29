@@ -73,13 +73,15 @@ c. Duplicate values Check
 
 #### Part 3 - Outlier Detection 
 Understand the range of ride durations
-  <img width="445" height="56" alt="Screenshot 2026-06-30 at 12 38 08 AM" src="https://github.com/user-attachments/assets/d704eb20-b0e9-460e-b2fe-d69e04f500d7" />
+
+<img width="445" height="56" alt="Screenshot 2026-06-30 at 12 38 08 AM" src="https://github.com/user-attachments/assets/d704eb20-b0e9-460e-b2fe-d69e04f500d7" />
   - Negative ride duration: min ride duration is negative, which means there is/are incorrect timestamps. This will be considered during data cleaning stage to be removed
   - Max ride duration: 94,494 seconds or 26.25 hours. Is this impossible? Someone could legitimately rent a bike for more than 1 day.
   - Average ride duration: 961 seconds or 16.02 minutes. This looks ok
 
 Further inspection on the frequency, 
-  <img width="445" height="65" alt="Screenshot 2026-06-30 at 12 43 26 AM" src="https://github.com/user-attachments/assets/fda822d8-7f28-43b4-9d72-576f59817b61" />
+
+<img width="445" height="65" alt="Screenshot 2026-06-30 at 12 43 26 AM" src="https://github.com/user-attachments/assets/fda822d8-7f28-43b4-9d72-576f59817b61" />
 
   - 
 
