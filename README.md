@@ -65,7 +65,7 @@ a. NULL values Check
   - Both "end_lat" and "end_lng" have 5,535 missing values
   
 b. Blank values Check
-  <img width="967" height="68" alt="Screenshot 2026-06-30 at 12 13 48 AM" src="https://github.com/user-attachments/assets/50c6ae3f-f400-4133-9db1-1a1d6e1c3e48" />
+    <img width="967" height="68" alt="Screenshot 2026-06-30 at 12 13 48 AM" src="https://github.com/user-attachments/assets/50c6ae3f-f400-4133-9db1-1a1d6e1c3e48" />
 
 c. Duplicate values Check
   <img width="316" height="64" alt="Screenshot 2026-06-30 at 12 20 07 AM" src="https://github.com/user-attachments/assets/7e741660-c7ac-4299-a33a-5902abb7f922" />
@@ -80,6 +80,7 @@ Understand the range of ride durations
 
 Further inspection on the frequency, 
 <img width="445" height="65" alt="Screenshot 2026-06-30 at 12 43 26 AM" src="https://github.com/user-attachments/assets/fda822d8-7f28-43b4-9d72-576f59817b61" />
+
   - 
 
 
