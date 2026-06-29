@@ -105,6 +105,7 @@ Further inspection on Zero duration:
 Remark: The column exploration focused on these three columns as they are the most relevant to the business objective and overall data quality. ride_id was verified to be unique, while rideable_type and member_casual were explored to understand the available bike types and rider groups. The remaining columns will be analyzed later if they contribute to answering the business question.
 
 ### Data Cleaning (SQL #3)
+- Remove rides with zero and negative ride durations
 
 ### Analysis & Share (SQL #4)
 
