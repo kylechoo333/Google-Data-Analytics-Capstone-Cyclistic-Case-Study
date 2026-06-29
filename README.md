@@ -83,11 +83,13 @@ Understand the range of ride durations
   - Max ride duration: 94,494 seconds or 26.25 hours. Is this impossible? Someone could legitimately rent a bike for more than 1 day.
   - Average ride duration: 961 seconds or 16.02 minutes. This looks ok
 
-Further inspection on the frequency, 
+Further inspection on the frequency for "negative duration", "zero duration" and "over 24 hours" ride.
 
 <img width="445" height="65" alt="Screenshot 2026-06-30 at 12 43 26 AM" src="https://github.com/user-attachments/assets/fda822d8-7f28-43b4-9d72-576f59817b61" />
 
-  - 
+  - Negative duration: A ride cannot end before it starts. These are dirty data, needs to be removed during cleaning stage
+  - Zero duration: There are 1,808 rides with zero duration. Need further inspection
+  - Over 24 hours: There are 5,585 rides (which is ~0.1% of total data), these look ok. Could be rare case, not necessarily data errors.
 
 
 #### Part 4 - Column Exploration
