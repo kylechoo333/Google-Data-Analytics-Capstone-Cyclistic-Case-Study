@@ -33,7 +33,7 @@ Moreno has assigned me (the data analyst working on the marketing analyst team a
 
 ## Prepare
 ### Data Source
-I will use Cyclistic's historical trip data to analyse and identify patterns from Jan 2025 to Dec 2025, which can be downloaded from [divvy_tripdata](divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
+I will use Cyclistic's historical trip data to analyse and identify patterns from Jan 2025 to Dec 2025, which can be downloaded from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
 
 This is publicly available data that can be used to study how different type of customers are using Cyclistic bikes. But note that data-privacy issues prohibit data users from using riders' personally identifiable information. This means that we won't be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes. 
 
