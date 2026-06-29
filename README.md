@@ -55,8 +55,41 @@ Total of 12 files are used for this analysis, each file represents that data of 
 13. member_casual: "member" or "casual" rider
 
 ## Process
-As there is more than 100k+ data per month, it is clear that SQL/BigQuery should be used to handle the data because it can better process and host huge volumnes of data than google sheets or microsoft excel. 
+As there is more than 100k+ data per month, it is clear that SQL/BigQuery should be used to handle the data because it can better process and host huge volumnes of data than google sheets or microsoft excel. Big Query is used to combine monthly dataset and clean it
 
 ### Data Consolidation
+SQL Query: Data Consolidation (To embed link here)
+12 csv are uploaded as tables in the dataset "2025_divvy_trip_data". Another table named 'overall_2025_divvy_tripdata' is created, combining the trip data for year 2025. There are total of 5,552,994 rows of data for the entire year. 
+
+### Data Exploration 
+SQL QUery: Data Exploration (To embed link here) 
+
+#### Part 1 - Understand the dataset
+- total rows
+- total columns
+- schema/ data types
+
+#### Part 2 - Data Quality
+- NULL values
+- Blank values
+- Duplicate values
+
+#### Part 3 - Outlier Detection 
+- Negative ride duration
+- Longer than 24 hours
+- Less than 1 minute
+
+#### Part 4 - Column Exploration
+- ride_id
+- rideable_type
+- member_casual
+- station names
+- latitude/longtitude
+
+### Data Cleaning 
+
+### Analysis & Share
+
+
 
 
