@@ -55,20 +55,24 @@ SQL Query: Data Exploration (To embed link here)
 - total rows: 5,552,994
 - total columns: 13
 - schema/ data types
+
 <img width="464" height="390" alt="Screenshot 2026-06-29 at 4 37 28 PM" src="https://github.com/user-attachments/assets/77f51954-917f-4ac3-883b-ad296e43e1b6" />
 
 #### Part 2 - Data Quality
 a. NULL values Check
+  
   <img width="1788" height="63" alt="Screenshot 2026-06-29 at 11 47 58 PM" src="https://github.com/user-attachments/assets/75840195-0e48-4b5e-9ab3-76f0490762cb" />
   - Both "start_station_name" and "start_station_id" have 1,184,673 missing values
   - Both "end_station_name" and "end_station_id" have 1,2453,305 missing values
   - Both "end_lat" and "end_lng" have 5,535 missing values
   
 b. Blank values Check
-    <img width="967" height="68" alt="Screenshot 2026-06-30 at 12 13 48 AM" src="https://github.com/user-attachments/assets/50c6ae3f-f400-4133-9db1-1a1d6e1c3e48" />
+    
+  <img width="967" height="68" alt="Screenshot 2026-06-30 at 12 13 48 AM" src="https://github.com/user-attachments/assets/50c6ae3f-f400-4133-9db1-1a1d6e1c3e48" />
 
 c. Duplicate values Check
-    <img width="316" height="64" alt="Screenshot 2026-06-30 at 12 20 07 AM" src="https://github.com/user-attachments/assets/7e741660-c7ac-4299-a33a-5902abb7f922" />
+    
+  <img width="316" height="64" alt="Screenshot 2026-06-30 at 12 20 07 AM" src="https://github.com/user-attachments/assets/7e741660-c7ac-4299-a33a-5902abb7f922" />
   - Confirm that there are no duplicate values
 
 #### Part 3 - Outlier Detection 
