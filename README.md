@@ -201,6 +201,7 @@ Map with annotation of top 5 stations for each riders groups
 The figure above shows the geographic distribution of the top five starting stations for annual members and casual riders. Annual members stations are concentrated more around Chicago's city square, while casual rider stations are clustered along the lakefront, pier and major recreational attractions.
 
 Annual member: Annotated with maroon coloured checkered flag
+
 Casual: Annotated with Yellow coloured checkered flag
 
 
