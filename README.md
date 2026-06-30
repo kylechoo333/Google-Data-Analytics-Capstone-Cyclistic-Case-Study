@@ -108,6 +108,38 @@ Remark: The column exploration focused on these three columns as they are the mo
 - Remove rides with zero and negative ride durations
 
 ### Analysis & Share (SQL #4)
+- To answer the business question: How do annual members and casual riders use Cyclistic bikes differently? I have listed down a few analysis to study their usage behaviours.
+    1. Membership shares
+    2. Bike type shares
+    3. Top stations
+    4. Usage of bike rental (e.g. hour, weekday/weekend, duration)
+    5. Usage throughout the year
+ 
+- In order to perform the analysis above, we will need to create new columns. We will create a analysis table so that we only need to run the calculation one time. The following columns will need to be computed and added to this analysis table,
+    1. ride_length_min
+    2. ride_hour: 0 - 23
+    3. weekday_num: 1 - 7
+    4. weekday_name: Monday - Sunday
+    5. day_type: Weekday/ Weekend
+    6. month_num: 1 - 12
+    7. month_name: January - December (For better readability)
+ 
+#### a. Membership Shares
+
+<img width="518" height="88" alt="Screenshot 2026-06-30 at 11 23 21 AM" src="https://github.com/user-attachments/assets/b084ed81-9f30-4262-8e4e-a62e5138e99f" />
+
+Observation: Annual members accounted for 64% for all rides, while casual riders accounted for the remaining 36%.
+Insights: Annual members accounted for nearly two-third of all rides in year 2025, indicating that memberships are the primary driver of Cyclistic's ridership. However, there is still significant amount of casual riders, highlighting opportunity to convert them into annual members. 
+
+#### b. Bike type shares
+<img width="727" height="160" alt="Screenshot 2026-06-30 at 11 31 12 AM" src="https://github.com/user-attachments/assets/150bdfa3-10b9-45a3-bb4d-5016405e1f66" />
+
+Observation: Both annual members and casual riders showed a preference for electric bikes over classic bikes. However, a substantial proportion of riders were still using classic bikes, indicating continued demand for both bike types.
+Insights: Electric bikes are the prefrerred choice among both rider groups, suggesting they play an important role in Cyclistic's bike-sharing service. As classic bikes continue to account for a significant share of rides, maintaining an ideal proportion that meets the preference of both rider groups would help ensure customer demand is met. 
+
+
+
+
 
 
 
