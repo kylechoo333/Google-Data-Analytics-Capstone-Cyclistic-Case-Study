@@ -149,6 +149,7 @@ Insights: Casual riders tend to use bike for longer trip, suggesting they are mo
 Time analysis:
 
 <img width="368" height="518" alt="image" src="https://github.com/user-attachments/assets/87ba0552-757a-4b3c-b7dc-d279972cf88d" />
+
 *With the help of gsheet pivot function, we can visualise the traffic throughout the day
 
 Observation: Casual riders were most active between 11am-7pm, with riding activity peaking between 4pm-6pm. In contrast, annual members exhibited two distinct peak periods: a morning peak between 7am-8am, and a more pronounced evening peak between 3pm-7pm.
