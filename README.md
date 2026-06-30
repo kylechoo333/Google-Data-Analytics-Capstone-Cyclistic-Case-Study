@@ -150,7 +150,7 @@ Time analysis:
 
 <img width="368" height="518" alt="image" src="https://github.com/user-attachments/assets/87ba0552-757a-4b3c-b7dc-d279972cf88d" />
 
-*With the help of gsheet pivot function, we can visualise the traffic throughout the day
+*With the help of gsheet pivot function and heatmap conditioning, we can visualise the traffic throughout the day
 
 Observation: Casual riders were most active between 11am-7pm, with riding activity peaking between 4pm-6pm. In contrast, annual members exhibited two distinct peak periods: a morning peak between 7am-8am, and a more pronounced evening peak between 3pm-7pm.
 
@@ -159,6 +159,7 @@ The two distinct peak periods observed among annual members suggest regular comm
 
 
 Day analysis:
+
 <img width="840" height="407" alt="Screenshot 2026-06-30 at 2 15 44 PM" src="https://github.com/user-attachments/assets/62052ebc-94f3-4f87-a5c1-d54c94c99af5" />
 
 Observation: Casual riders showed higher riding activity during weekends, particularly on Saturday (20.72%) and Sunday (16.59%), with elevated activity also on Friday (16.01%). In contrast, annual members recorded a higher proportion consistently from Monday to Thursday, while weekend activity was comparatively lower.
@@ -166,6 +167,15 @@ Observation: Casual riders showed higher riding activity during weekends, partic
 Insights: The weekday distribution suggests that annual members are more liekly to use Cyclistic bikes as part of their regular routines, such as commuting or other recurring trips, wheareas casual riders exhibit stronger weekend riding patterns, suggesting their trips are more commonly associated with leisure purpose.
 
 Month analysis:
+
+<img width="457" height="289" alt="image" src="https://github.com/user-attachments/assets/210af8fb-ecb5-45b5-828b-d7aaae387058" />
+
+*With the help of gsheet pivot function and heatmap conditioning, we can visualise the traffic throughout the day
+
+Observation: Both annual members and casual riders exhibited a similar seasonal riding pattern throughout the year. Ridership gradually increased from January, peaked in August, and then declined towards the end of the year. December to February recorded the lowest ridership for both rider groups, while June to October represented the busiest period. Annual members also maintained relatively higher ridership during September and October, whereas casual riders experienced a more noticeable decline after August
+
+Insights: The consistent seasonal pattern suggests that weather and road condition may influence cycling demand, with ridership increasing during warmer months and decreasing during winter. This is evident from the ridership especially from Dec to Feb as this is Chicago winter season. Also, the relatively steadier ridership among annual members may suggest that they may rely on Cyclistic more consistently, less sensitive to seasonal changes.
+
 
 
 
