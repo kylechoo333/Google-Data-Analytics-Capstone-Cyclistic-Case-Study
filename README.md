@@ -189,12 +189,19 @@ iii. Casual:
 
 <img width="384" height="308" alt="Screenshot 2026-06-30 at 3 15 34 PM" src="https://github.com/user-attachments/assets/c4abc666-3bf5-4f2c-a027-e870ee60f7dd" />
 
+Observation: The top starting stations differed noticeably between annual members and casual riders. Annual members most frequently started their rides from stations located within or close to Chicago's central business district, such as Kinsbury St & Kinzie St, Clinton St & Washington Blvd, and Canal St & Madison St. In contrast, casual riders most frequently started from stations located along Chicago's lakefront and popular attractions, including DuSable Lake Shore Dr, Navy Pier, Millennium Park, Shedd Aquarium, and Theater on the Lake
+
+Insights: The geographical distribution of the top starting stations suggesrts that annual members may use Cyclistic bikes primarily for regular transportation, including commuting or short urban trips within the city. In contrast, casual riders appear to begin their trips more frequently near to tourist attraction, along the lakefront and beach, suggesting that they are more liekly to use the service for leisure, sightseeing, or recreational activities. 
+
 Map with annotation of top 5 stations for each riders groups
-Legend: 
-Annual member: Maroon coloured checkered flag
-Casual: Yellow coloured checkered flag
+
 
 <img width="944" height="591" alt="Screenshot 2026-06-30 at 3 26 27 PM" src="https://github.com/user-attachments/assets/1786dc39-edae-4ab4-b28e-c6dc8860d27a" />
+
+The figure above shows the geographic distribution of the top five starting stations for annual members and casual riders. Annual members stations are concentrated more around Chicago's city square, while casual rider stations are clustered along the lakefront, pier and major recreational attractions.
+
+Annual member: Annotated with maroon coloured checkered flag
+Casual: Annotated with Yellow coloured checkered flag
 
 
 
