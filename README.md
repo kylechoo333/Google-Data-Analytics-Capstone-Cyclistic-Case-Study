@@ -189,6 +189,16 @@ iii. Casual:
 
 <img width="384" height="308" alt="Screenshot 2026-06-30 at 3 15 34 PM" src="https://github.com/user-attachments/assets/c4abc666-3bf5-4f2c-a027-e870ee60f7dd" />
 
+Map with annotation of top 5 stations for each riders groups
+Legend: 
+Annual member: Maroon coloured checkered flag
+Casual: Yellow coloured checkered flag
+
+<img width="944" height="591" alt="Screenshot 2026-06-30 at 3 26 27 PM" src="https://github.com/user-attachments/assets/1786dc39-edae-4ab4-b28e-c6dc8860d27a" />
+
+
+
+
 
 
 
