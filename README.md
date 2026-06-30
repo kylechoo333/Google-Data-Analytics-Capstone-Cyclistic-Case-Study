@@ -14,6 +14,9 @@ SQL Queries:
 
 5. Data Visualisation: Tableau (To insert link)
 
+Other reference: 
+https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study 
+
 ## Background
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unclocked from one station and returned to any other station in the system anytime. 
 
