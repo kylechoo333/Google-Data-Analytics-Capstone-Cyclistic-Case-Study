@@ -111,9 +111,10 @@ Remark: The column exploration focused on these three columns as they are the mo
 - To answer the business question: How do annual members and casual riders use Cyclistic bikes differently? I have listed down a few analysis to study their usage behaviours.
     1. Membership shares
     2. Bike type shares
-    3. Top stations
-    4. Usage of bike rental (e.g. hour, weekday/weekend, duration)
+    3. Bike ride duration 
+    4. Time/date of bike ride (e.g. hour, weekday/weekend)
     5. Usage throughout the year
+    6. Top stations
  
 - In order to perform the analysis above, we will need to create new columns. We will create a analysis table so that we only need to run the calculation one time. The following columns will need to be computed and added to this analysis table,
     1. ride_length_min
@@ -136,6 +137,44 @@ Insights: Annual members accounted for nearly two-third of all rides in year 202
 
 Observation: Both annual members and casual riders showed a preference for electric bikes over classic bikes. However, a substantial proportion of riders were still using classic bikes, indicating continued demand for both bike types.
 Insights: Electric bikes are the prefrerred choice among both rider groups, suggesting they play an important role in Cyclistic's bike-sharing service. As classic bikes continue to account for a significant share of rides, maintaining an ideal proportion that meets the preference of both rider groups would help ensure customer demand is met. 
+
+#### c. Bike ride duration
+
+<img width="894" height="95" alt="Screenshot 2026-06-30 at 1 55 47 PM" src="https://github.com/user-attachments/assets/b85f6e44-17f6-445c-a2f6-a69fcb1299ec" />
+
+Observation: Annual members generally took shorter rides than casual riders. The average ride duration for members was 12.33 minutes, compare with 22.60 minutes for casual riders. Similarly, the median ride duration was 8.55 minutes for members and 11.42 for casual riders. This shows that casual riders typically take longer trips than annual members.
+Insights: Casual riders tend to use bike for longer trip, suggesting they are more liekly to ride for leisure. In contrast, annual members generally take shorter rides, which may indicate more routine or commuting-related usage.
+
+#### d. Time/Date of bike ride
+Time analysis:
+
+<img width="368" height="518" alt="image" src="https://github.com/user-attachments/assets/87ba0552-757a-4b3c-b7dc-d279972cf88d" />
+*With the help of gsheet pivot function, we can visualise the traffic throughout the day
+
+Observation: Casual riders were most active between 11am-7pm, with riding activity peaking between 4pm-6pm. In contrast, annual members exhibited two distinct peak periods: a morning peak between 7am-8am, and a more pronounced evening peak between 3pm-7pm.
+
+Insights:
+The two distinct peak periods observed among annual members suggest regular commuting or routine travel during typical working hours. Casual riders, on the other hand, showed a more gradual increase in riding activity throughout the day, with demand concentrated in the afternoon and early evening, suggesting greater use for leisure or flexible trips.
+
+
+Day analysis:
+<img width="840" height="407" alt="Screenshot 2026-06-30 at 2 15 44 PM" src="https://github.com/user-attachments/assets/62052ebc-94f3-4f87-a5c1-d54c94c99af5" />
+
+Observation: Casual riders showed higher riding activity during weekends, particularly on Saturday (20.72%) and Sunday (16.59%), with elevated activity also on Friday (16.01%). In contrast, annual members recorded a higher proportion consistently from Monday to Thursday, while weekend activity was comparatively lower.
+
+Insights: The weekday distribution suggests that annual members are more liekly to use Cyclistic bikes as part of their regular routines, such as commuting or other recurring trips, wheareas casual riders exhibit stronger weekend riding patterns, suggesting their trips are more commonly associated with leisure purpose.
+
+Month analysis:
+
+
+
+
+
+
+
+
+
+
 
 
 
