@@ -109,12 +109,11 @@ Remark: The column exploration focused on these three columns as they are the mo
 
 ### Analysis & Share (SQL #4)
 - To answer the business question: How do annual members and casual riders use Cyclistic bikes differently? I have listed down a few analysis to study their usage behaviours.
-    1. Membership shares
-    2. Bike type shares
-    3. Bike ride duration 
-    4. Time/date of bike ride (e.g. hour, weekday/weekend)
-    5. Usage throughout the year
-    6. Top stations
+    a. Membership shares
+    b. Bike type shares
+    c. Bike ride duration 
+    d. Time/date of bike ride (e.g. hour, days, month)
+    e. Top stations
  
 - In order to perform the analysis above, we will need to create new columns. We will create a analysis table so that we only need to run the calculation one time. The following columns will need to be computed and added to this analysis table,
     1. ride_length_min
@@ -175,6 +174,22 @@ Insights: The weekday distribution suggests that annual members are more liekly 
 Observation: Both annual members and casual riders exhibited a similar seasonal riding pattern throughout the year. Ridership gradually increased from January, peaked in August, and then declined towards the end of the year. December to February recorded the lowest ridership for both rider groups, while June to October represented the busiest period. Annual members also maintained relatively higher ridership during September and October, whereas casual riders experienced a more noticeable decline after August
 
 Insights: The consistent seasonal pattern suggests that weather and road condition may influence cycling demand, with ridership increasing during warmer months and decreasing during winter. This is evident from the ridership especially from Dec to Feb as this is Chicago winter season. Also, the relatively steadier ridership among annual members may suggest that they may rely on Cyclistic more consistently, less sensitive to seasonal changes.
+
+#### e. Top Station 
+
+i. Overall:
+
+<img width="385" height="300" alt="Screenshot 2026-06-30 at 3 11 48 PM" src="https://github.com/user-attachments/assets/13a3584b-9ca7-42cc-951f-24ba158b0860" />
+
+ii. Member:
+
+<img width="392" height="304" alt="Screenshot 2026-06-30 at 3 14 48 PM" src="https://github.com/user-attachments/assets/46ed1110-a619-4e87-9660-2089f295c5e6" />
+
+iii. Casual:
+
+<img width="384" height="308" alt="Screenshot 2026-06-30 at 3 15 34 PM" src="https://github.com/user-attachments/assets/c4abc666-3bf5-4f2c-a027-e870ee60f7dd" />
+
+
 
 
 
