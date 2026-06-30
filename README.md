@@ -1,7 +1,34 @@
 # Google Data Analytics Capstone: Cyclistic Case Study
 This is my documentation of a capstone project from https://www.coursera.org/learn/google-data-analytics-capstone
 
-In this case study, I will perform data analysis for a fictional bike-share company named "Cyclistic", in order to help them attract more riders. In order to answer the key business questions, I will follow the steps of data analysis process: Ask, Prepare, Process, Analyse, Share, and Act.
+## Executive Summary
+
+This project analyses 5.55 million Cyclistic bike trips from January to December 2025 using Google BigQuery, SQL, Google Sheets and Tableau (to be added).
+
+The objective is to understand how annual members and casual riders use Cyclistic bikes differently in order to support marketing strategies that encourage casual riders to become annual members.
+
+### Key Findings
+
+- Annual members account for 64% of all rides.
+- Both rider groups prefer electric bikes.
+- Casual riders ride almost twice as long as members.
+- Members ride primarily during weekdays and commuting hours.
+- Casual riders ride mainly during weekends, afternoons and around lakefront attractions.
+- Member trips originate mainly around Chicago's city centre while casual riders concentrate near recreational areas.
+
+## Limitations
+
+This analysis is based solely on historical trip records.
+Weather, rider demographics, pricing, special events and survey data were unavailable.
+Therefore, rider intent is inferred from behavioural patterns rather than directly measured.
+
+## Tools
+
+- Google BigQuery/SQL
+- Google Sheets
+- Tableau (To be added later)
+- Google Maps
+- GitHub
 
 **Quick Links:**
 Data Source: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
@@ -206,6 +233,30 @@ The figure above shows the geographic distribution of the top five starting stat
 Annual member: Annotated with maroon coloured checkered flag
 
 Casual: Annotated with Yellow coloured checkered flag
+
+## Conclusion 
+
+This analysis identified clear behavioural differences between annual members and casual riders using Cyclistic bikes.
+
+Annual members accounted for the majority of rides (64%) and generally used the bikes for shorter trips during weekdays and typical commuting hours. Their rides also originated predominantly from stations located within or near Chicago's central business district, suggesting that Cyclistic is commonly used as part of their regular transportation routine.
+
+In contrast, casual riders tended to take longer trips, rode more frequently during weekends and afternoons, and primarily started their journeys near Chicago's lakefront, beaches, and popular tourist attractions. These findings suggest that casual riders are more likely to use Cyclistic for leisure, recreational, or sightseeing purposes.
+
+Overall, the analysis indicates that annual members and casual riders exhibit distinct riding behaviours, providing valuable insights for designing targeted marketing strategies to encourage casual riders to become annual members.
+
+
+## Recommendation 
+### 1. Launch Weekend Membership Campaigns
+Casual riders showed significantly higher riding activity during weekends, particularly on Saturdays and Sundays. Cyclistic could introduce weekend-focused promotions, such as discounted annual memberships or free membership trial weekends, to encourage frequent leisure riders to convert into annual members.
+
+### 2. Increase Marketing Around Tourist Attractions
+The station analysis showed that casual riders frequently started trips near Chicago's lakefront, Navy Pier, Millennium Park, and other recreational attractions. Cyclistic could collaborate with nearby businesses, hotels, or tourist attractions to promote annual memberships through QR codes, digital advertisements, or limited-time membership offers.
+
+### 3. Encourage Casual Riders to Build Riding Habits
+Casual riders generally took longer rides but used the service less consistently than annual members. Cyclistic could encourage repeat usage by offering incentives such as ride credits, loyalty/tier-based rewards, or discounted membership upgrades after a certain number of casual rides.
+
+### 4. Focus Marketing During Peak Riding Season
+Ridership for both rider groups increased significantly during the warmer months, particularly from June to October. Cyclistic should prioritise membership marketing campaigns during this period when rider engagement is naturally higher and casual riders are more active.
 
 
 
