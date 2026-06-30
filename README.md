@@ -146,7 +146,7 @@ Observation: Annual members generally took shorter rides than casual riders. The
 Insights: Casual riders tend to use bike for longer trip, suggesting they are more liekly to ride for leisure. In contrast, annual members generally take shorter rides, which may indicate more routine or commuting-related usage.
 
 #### d. Time/Date of bike ride
-Time analysis:
+##### Time analysis:
 
 <img width="368" height="518" alt="image" src="https://github.com/user-attachments/assets/87ba0552-757a-4b3c-b7dc-d279972cf88d" />
 
@@ -158,7 +158,7 @@ Insights:
 The two distinct peak periods observed among annual members suggest regular commuting or routine travel during typical working hours. Casual riders, on the other hand, showed a more gradual increase in riding activity throughout the day, with demand concentrated in the afternoon and early evening, suggesting greater use for leisure or flexible trips.
 
 
-Day analysis:
+##### Day analysis:
 
 <img width="840" height="407" alt="Screenshot 2026-06-30 at 2 15 44 PM" src="https://github.com/user-attachments/assets/62052ebc-94f3-4f87-a5c1-d54c94c99af5" />
 
@@ -166,7 +166,7 @@ Observation: Casual riders showed higher riding activity during weekends, partic
 
 Insights: The weekday distribution suggests that annual members are more liekly to use Cyclistic bikes as part of their regular routines, such as commuting or other recurring trips, wheareas casual riders exhibit stronger weekend riding patterns, suggesting their trips are more commonly associated with leisure purpose.
 
-Month analysis:
+##### Month analysis:
 
 <img width="457" height="289" alt="image" src="https://github.com/user-attachments/assets/210af8fb-ecb5-45b5-828b-d7aaae387058" />
 
