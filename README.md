@@ -3,7 +3,7 @@ This is the documentation of my capstone project from https://www.coursera.org/l
 
 ## Executive Summary
 
-This project analyses 5.55 million Cyclistic bike trips from January to December 2025 using Google BigQuery, SQL, Google Sheets and Tableau (to be added).
+This project analyses 5.55 million Cyclistic bike trips from January to December 2025 using Google BigQuery, SQL and Google Sheets.
 
 The objective is to understand how annual members and casual riders use Cyclistic bikes differently in order to support marketing strategies that encourage casual riders to become annual members.
 
